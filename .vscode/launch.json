@@ -1,0 +1,13 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Launch SvelteKit server",
+			"type": "node",
+			"request": "launch",
+			"cwd": "${workspaceFolder}",
+			"runtimeExecutable": "pnpm",
+			"args": ["vavite-loader", "vite", "dev"]
+		}
+	]
+}
